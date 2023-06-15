@@ -2,6 +2,10 @@
 
 Transcription App for Chinese-Americans
 
+## Site URL (Try it Yourself!)
+
+- **https://solderq35.github.io/better-chinglish**
+
 ## Purpose
 
 I have plans to expand this app's capabilities, but for now:
