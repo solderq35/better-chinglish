@@ -39,6 +39,13 @@ function App() {
       </form>
 
       {imageUrl && <ImageComponent imageUrl={imageUrl} />}
+      <p style={{ float: "left" }}>
+        Credits -{" "}
+        <a href="https://www.qhanzi.com/" target="_blank">
+          qhanzi
+        </a>
+        , Ben Burlock
+      </p>
       <Iframe
         // url="http://www.youtube.com/embed/xDMP3i36naA"
         url="https://www.qhanzi.com/"
@@ -50,6 +57,17 @@ function App() {
         allowFullScreen
         allow="clipboard-read; clipboard-write"
       />
+
+      <p style={{ float: "left" }}>
+        Credits -{" "}
+        <a
+          href="https://www.bing.com/translator?to=en&setlang=si"
+          target="_blank"
+        >
+          Bing Translator (Simplified Chinese to English), Microsoft
+        </a>
+        , Ben Burlock
+      </p>
       <Iframe
         // url="http://www.youtube.com/embed/xDMP3i36naA"
         url="https://www.bing.com/translator?to=en&setlang=si"
