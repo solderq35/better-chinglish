@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://solderq35.github.io/better-chinglish",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
