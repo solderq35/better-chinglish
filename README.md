@@ -11,7 +11,8 @@ Transcription App for Chinese-Americans
   - I skipped to 0:46 timestamp above as I assume most people know how to upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/), but if not, be sure to watch the first 46 seconds of demo
 
 ## Usage Instructions
-- (Optional, only if it's too awkward to hold the menu etc) Upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/)
+- (Optional, only if it's too awkward to hold the menu etc)
+  - Upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/)
   - Copy image URL and put it in the "Enter Image URL" link
 - Look at Chinese characters and carefully write it in the handwriting input [qhanzi](https://www.qhanzi.com/) section
   - You can stop in the middle of writing a Chinese character and come back, unlike with native iPhone Chinese handwriting input. Shoutouts to Ben Burlock for great work on [qhanzi](https://www.qhanzi.com/)
