@@ -36,7 +36,6 @@ function App() {
           onChange={handleInputChange}
           placeholder="Enter image URL"
         />
-        <button type="submit">Render Image</button>
       </form>
       {imageUrl && <ImageComponent imageUrl={imageUrl} />}
       <Iframe
