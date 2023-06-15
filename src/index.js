@@ -41,7 +41,11 @@ function App() {
       {imageUrl && <ImageComponent imageUrl={imageUrl} />}
       <p style={{ float: "left" }}>
         Credits -{" "}
-        <a href="https://www.qhanzi.com/" target="_blank">
+        <a
+          href="https://www.qhanzi.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           qhanzi
         </a>
         , Ben Burlock
@@ -63,6 +67,7 @@ function App() {
         <a
           href="https://www.bing.com/translator?to=en&setlang=si"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Bing Translator (Simplified Chinese to English), Microsoft
         </a>
