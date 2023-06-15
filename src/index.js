@@ -22,7 +22,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // You can perform any validation or processing here before rendering the image
+    // You can perform any validation or processing here before rendering the images
   };
 
   return (
