@@ -36,7 +36,6 @@ function App() {
           placeholder="Enter image URL"
           style={{ fontSize: "16px" }} // Increase the font size here
         />
-        <button type="submit">Render Image</button>
       </form>
 
       {imageUrl && <ImageComponent imageUrl={imageUrl} />}
