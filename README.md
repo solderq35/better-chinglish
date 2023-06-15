@@ -7,10 +7,12 @@ Transcription App for Chinese-Americans
 - **https://solderq35.github.io/better-chinglish**
 
 ## Video Demo
+
 - https://youtu.be/-vmA7UhrdP0?t=46s
   - I skipped to 0:46 timestamp above as I assume most people know how to upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/), but if not, be sure to watch the first 46 seconds of demo
 
 ## Usage Instructions
+
 - (Optional, only if it's too awkward to hold the menu etc)
   - Upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/)
   - Copy image URL and put it in the "Enter Image URL" link
@@ -18,7 +20,9 @@ Transcription App for Chinese-Americans
   - You can stop in the middle of writing a Chinese character and come back, unlike with native iPhone Chinese handwriting input. Shoutouts to Ben Burlock for great work on [qhanzi](https://www.qhanzi.com/)
 - When you are all done writing the Chinese characters by hand, copy and paste the Chinese characters into the [Bing Translate](https://www.bing.com/translator?to=en&setlang=si) section
   - You will be able to see the [Pinyin](https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) pronunciation and meaning
+    ![Screenshot Example](public/pinyin.PNG)
   - If you still can't pronounce it, you can click the little speaker icon in the Bing Translate window to hear how it's pronounced
+    ![Screenshot Example](public/speaker.PNG)
 
 ## Purpose
 
