@@ -7,7 +7,7 @@ import "./styles.css";
 function ImageComponent({ imageUrl }) {
   return (
     <div>
-      <img src={imageUrl} alt="Menu Item"/>
+      <img src={imageUrl} alt="Menu Item" width="700"/>
     </div>
   );
 }
