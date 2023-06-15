@@ -69,8 +69,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bing Translator, Microsoft
+          Bing Translator
         </a>
+        , Microsoft
       </p>
       <Iframe
         // url="http://www.youtube.com/embed/xDMP3i36naA"
