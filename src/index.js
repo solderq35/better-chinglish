@@ -69,9 +69,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bing Translator (Simplified Chinese to English), Microsoft
+          Bing Translator, Microsoft
         </a>
-        , Ben Burlock
       </p>
       <Iframe
         // url="http://www.youtube.com/embed/xDMP3i36naA"
