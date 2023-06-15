@@ -3,10 +3,10 @@ import objectAssign from "object-assign";
 
 var __assign =
   (this && this.__assign) ||
-  function() {
+  function () {
     __assign =
       Object.assign ||
-      function(t) {
+      function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
           s = arguments[i];
           for (var p in s)
@@ -17,7 +17,7 @@ var __assign =
     return __assign.apply(this, arguments);
   };
 
-var Iframe = function(_a) {
+var Iframe = function (_a) {
   var url = _a.url,
     allowFullScreen = _a.allowFullScreen,
     position = _a.position,
@@ -53,7 +53,7 @@ var Iframe = function(_a) {
       display: display || "block",
       height: height || "100%",
       width: width || "100%",
-      overflow: overflow || "hidden"
+      overflow: overflow || "hidden",
     },
     scrolling: scrolling || "no",
     frameBorder: frameBorder || 0,
@@ -72,7 +72,7 @@ var Iframe = function(_a) {
     width: width || "100%",
     onLoad: onLoad || null,
     onMouseOver: onMouseOver || null,
-    onMouseOut: onMouseOut || null
+    onMouseOut: onMouseOut || null,
   });
   var props = Object.create(null);
   for (var _i = 0, _b = Object.keys(defaultProps); _i < _b.length; _i++) {

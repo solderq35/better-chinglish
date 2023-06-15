@@ -7,13 +7,12 @@ import "./styles.css";
 function ImageComponent({ imageUrl }) {
   return (
     <div>
-      <img src={imageUrl} alt="Menu Item" width="700"/>
+      <img src={imageUrl} alt="Menu Item" width="700" />
     </div>
   );
 }
 
 function App() {
-  
   const [imageUrl, setImageUrl] = useState("");
 
   const handleInputChange = (event) => {
@@ -35,8 +34,11 @@ function App() {
           value={imageUrl}
           onChange={handleInputChange}
           placeholder="Enter image URL"
+          style={{ fontSize: "16px" }} // Increase the font size here
         />
+        <button type="submit">Render Image</button>
       </form>
+
       {imageUrl && <ImageComponent imageUrl={imageUrl} />}
       <Iframe
         // url="http://www.youtube.com/embed/xDMP3i36naA"
