@@ -6,6 +6,19 @@ Transcription App for Chinese-Americans
 
 - **https://solderq35.github.io/better-chinglish**
 
+## Video Demo
+- https://youtu.be/-vmA7UhrdP0?t=46s
+  - I skipped to 0:46 timestamp above as I assume most people know how to upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/), but if not, be sure to watch the first 46 seconds of demo
+
+## Usage Instructions
+- (Optional, only if it's too awkward to hold the menu etc) Upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/)
+  - Copy image URL and put it in the "Enter Image URL" link
+- Look at Chinese characters and carefully write it in the handwriting input [qhanzi](https://www.qhanzi.com/) section
+  - You can stop in the middle of writing a Chinese character and come back, unlike with native iPhone Chinese handwriting input. Shoutouts to Ben Burlock for great work on [qhanzi](https://www.qhanzi.com/)
+- When you are all done writing the Chinese characters by hand, copy and paste the Chinese characters into the [Bing Translate](https://www.bing.com/translator?to=en&setlang=si) section
+  - You will be able to see the [Pinyin](https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) pronunciation and meaning
+  - If you still can't pronounce it, you can click the little speaker icon in the Bing Translate window to hear how it's pronounced
+
 ## Purpose
 
 I have plans to expand this app's capabilities, but for now:
@@ -15,7 +28,7 @@ I have plans to expand this app's capabilities, but for now:
   - However, I do have to order in Chinese, and I often cannot read the menu very well (having a much shakier Chinese literacy)
     - Thus, I need a way to accurately decipher Chinese characters on the menu if I don't already recognize them
 - There is native support for Chinese handwriting input on iPhone, but it's not very good / clearly targeted at fluent Chinese readers / writers
-  - The moment you switch browser or app tabs on iPhone, the handwriting input _resets_, which is an issue for someone like me who forgot the stroke order of a character on the restaurantt menu midway through it
+  - The moment you switch browser or app tabs on iPhone, the handwriting input _resets_, which is an issue for someone like me who forgot the stroke order of a character on the restaurant menu midway through it
 - Thus I am using iframes with [qhanzi](https://www.qhanzi.com/), a website that has way better handwriting input and does not reset your input the moment you leave the page
 - Currently I have to open qhanzi, Google or Bing Translate, and maybe also a photo on my phone (since it's awkward to stand around holding the menu) to order
 - I need the Google or Bing Translate to:
