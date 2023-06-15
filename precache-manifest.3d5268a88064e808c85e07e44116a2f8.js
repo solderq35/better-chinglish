@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1b00fcb81c5cfea44db578981aab3dd",
+    "revision": "ebccb9db50333a635aa9f6f88fbccbdb",
     "url": "/better-chinglish/index.html"
   },
   {
-    "revision": "8934e35c7a40c5c8e323",
+    "revision": "de5d2f1f83f21d61b46c",
     "url": "/better-chinglish/static/css/main.73e7e0aa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/better-chinglish/static/js/2.fa02c139.chunk.js"
   },
   {
-    "revision": "8934e35c7a40c5c8e323",
-    "url": "/better-chinglish/static/js/main.7e4c5f94.chunk.js"
+    "revision": "de5d2f1f83f21d61b46c",
+    "url": "/better-chinglish/static/js/main.cde18f29.chunk.js"
   },
   {
     "revision": "f9578aa08890e1c73980",
