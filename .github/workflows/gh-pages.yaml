@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          path: src
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -20,11 +22,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ..
 
       - name: Build React app
         run: npm run build --prefix src
-        with:
-          path: src
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
