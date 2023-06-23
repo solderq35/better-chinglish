@@ -38,7 +38,7 @@ I have plans to expand this app's capabilities, but for now:
 - Currently I have to open qhanzi, Google or Bing Translate, and maybe also a photo on my phone (since it's awkward to stand around holding the menu) to order
 - I need the Google or Bing Translate to:
   - Get the [Pinyin](https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) transcription of the characters (the most important part, _how to actually pronounce the characters so I can make my restaurant food order in Chinese_)
-  - Get the meaning of the characters (important in case there is some term I don't recognize, which does happen on ocassion)
+  - Get the meaning of the characters (important in case there is some term I don't recognize, which does happen on occasion)
   - PS I am using Bing Translator in my version cause Google Translator blocks iframes for security reasons or something
 
 ## The Idea
