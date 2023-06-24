@@ -28,6 +28,16 @@ function App() {
     <div className="App">
       <h1>Better Chinglish</h1>
       <h2>Transcription App for Chinese-Americans</h2>
+      <h3>
+        <a
+          href="https://github.com/solderq35/better-chinglish/blob/main/README.md#usage-instructions"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="instructions"
+        >
+          Usage Instructions
+        </a>
+      </h3>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
