@@ -17,9 +17,11 @@ Transcription App for Chinese-Americans
   - Upload images to services like [ImgBB](https://imgbb.com/) or [Imgur](https://imgur.com/)
   - Copy image URL and put it in the "Enter Image URL" link
 - Look at Chinese characters and carefully write it in the handwriting input [qhanzi](https://www.qhanzi.com/) section
-  - Shoutouts to Ben Burlock for great work on [qhanzi](https://www.qhanzi.com/)
+  - Shoutouts to Ben Burlock for great work on qhanzi!
   - You can stop in the middle of writing a Chinese character and come back, unlike with native iPhone Chinese handwriting input.
+
     ![Screenshot Example](public/qhanzi.PNG)
+  - If Chinese character candidates do not show up when using the qhanzi Iframe, there may be a caching issue, you may have to reload the page for it to work correctly
 - When you are all done writing the Chinese characters by hand, copy and paste the Chinese characters into the [Bing Translate](https://www.bing.com/translator?to=en&setlang=si) section
   - You will be able to see the [Pinyin](https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) pronunciation and meaning
     ![Screenshot Example](public/pinyin.PNG)
