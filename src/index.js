@@ -75,7 +75,7 @@ function App() {
       <p style={{ float: "left" }}>
         Credits -{" "}
         <a
-          href="https://www.bing.com/translator?to=en&setlang=si"
+          href="https://www.bing.com/translator?to=en&setlang=en"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -85,7 +85,7 @@ function App() {
       </p>
       <Iframe
         // url="http://www.youtube.com/embed/xDMP3i36naA"
-        url="https://www.bing.com/translator?to=en&setlang=si"
+        url="https://www.bing.com/translator?to=en&setlang=en"
         height="1000px"
         id="myId"
         className="myClassname"

@@ -22,7 +22,7 @@ Transcription App for Chinese-Americans
 
     ![Screenshot Example](public/qhanzi.PNG)
   - If Chinese character candidates do not show up when using the qhanzi Iframe, there may be a caching issue, you may have to reload the page for it to work correctly
-- When you are all done writing the Chinese characters by hand, copy and paste the Chinese characters into the [Bing Translate](https://www.bing.com/translator?to=en&setlang=si) section
+- When you are all done writing the Chinese characters by hand, copy and paste the Chinese characters into the [Bing Translate](https://www.bing.com/translator?to=en&setlang=en) section
   - You will be able to see the [Pinyin](https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) pronunciation and meaning
     ![Screenshot Example](public/pinyin.PNG)
   - If you still can't pronounce it, you can click the little speaker icon in the Bing Translate window to hear how it's pronounced
@@ -75,5 +75,5 @@ It probably doesn't matter, but just in case, I am on node version `16.20.0` (ru
 ## Sources / Credits
 
 - [qhanzi Handwriting Input](https://www.qhanzi.com/) - Credits to Ben Bullock
-- [Bing Translator](https://www.bing.com/translator?to=en&setlang=si) - Thanks for not blocking Iframes unlike Google Translate
+- [Bing Translator](https://www.bing.com/translator?to=en&setlang=en) - Thanks for not blocking Iframes unlike Google Translate
 - [This Sandbox](https://codesandbox.io/s/9gggb?file=/src/index.js) from Ramesh Patel I used as a basic template for getting started on the Iframe stuff
