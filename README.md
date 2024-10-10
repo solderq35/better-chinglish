@@ -55,7 +55,10 @@ I have plans to expand this app's capabilities, but for now:
 
 ## Site Setup
 
-It probably doesn't matter, but just in case, I am on node version `16.20.0` (run `node -v` in terminal to check). You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
+Node Version: `18.18.2`
+
+- Run `node -v` in terminal to check
+- You can change node versions easily with [nvm for Unix](https://github.com/nvm-sh/nvm) or [nvm for Windows](https://github.com/coreybutler/nvm-windows)
 
 `npm install`
 
