@@ -49,51 +49,56 @@ function App() {
       </form>
 
       {imageUrl && <ImageComponent imageUrl={imageUrl} />}
-      <p style={{ float: "left" }}>
-        Credits -{" "}
-        <a
-          href="https://www.qhanzi.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          qhanzi
-        </a>
-        , Ben Burlock
-      </p>
-      <Iframe
-        // url="http://www.youtube.com/embed/xDMP3i36naA"
-        url="https://www.qhanzi.com/"
-        height="800px"
-        id="myId"
-        className="myClassname"
-        display="initial"
-        position="relative"
-        allowFullScreen
-        allow="clipboard-read; clipboard-write"
-      />
-
-      <p style={{ float: "left" }}>
-        Credits -{" "}
-        <a
-          href="https://www.bing.com/translator/?from=zh-Hans&to=en&setlang=en"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bing Translator
-        </a>
-        , Microsoft
-      </p>
-      <Iframe
-        // url="http://www.youtube.com/embed/xDMP3i36naA"
-        url="https://www.bing.com/translator/?from=zh-Hans&to=en&setlang=en"
-        height="1000px"
-        id="myId"
-        className="myClassname"
-        display="initial"
-        position="relative"
-        allowFullScreen
-        allow="clipboard-read; clipboard-write"
-      />
+      <div className="container">
+        <div className="item">
+          <p style={{ float: "left" }}>
+            Credits -{" "}
+            <a
+              href="https://www.qhanzi.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              qhanzi
+            </a>
+            , Ben Burlock
+          </p>
+          <Iframe
+            // url="http://www.youtube.com/embed/xDMP3i36naA"
+            url="https://www.qhanzi.com/"
+            height="800px"
+            id="myId"
+            className="myClassname"
+            display="initial"
+            position="relative"
+            allowFullScreen
+            allow="clipboard-read; clipboard-write"
+          />
+        </div>
+        <div className="item">
+          <p style={{ float: "left" }}>
+            Credits -{" "}
+            <a
+              href="https://www.bing.com/translator/?from=zh-Hans&to=en&setlang=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bing Translator
+            </a>
+            , Microsoft
+          </p>
+          <Iframe
+            // url="http://www.youtube.com/embed/xDMP3i36naA"
+            url="https://www.bing.com/translator/?from=zh-Hans&to=en&setlang=en"
+            height="1000px"
+            id="myId"
+            className="myClassname"
+            display="initial"
+            position="relative"
+            allowFullScreen
+            allow="clipboard-read; clipboard-write"
+          />
+        </div>
+      </div>
     </div>
   );
 }
