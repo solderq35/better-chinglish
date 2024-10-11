@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/better-chinglish/static/css/main.73e7e0aa.chunk.css",
-    "main.js": "/better-chinglish/static/js/main.afa01d23.chunk.js",
-    "main.js.map": "/better-chinglish/static/js/main.afa01d23.chunk.js.map",
+    "main.css": "/better-chinglish/static/css/main.630b6d99.chunk.css",
+    "main.js": "/better-chinglish/static/js/main.01999eba.chunk.js",
+    "main.js.map": "/better-chinglish/static/js/main.01999eba.chunk.js.map",
     "runtime~main.js": "/better-chinglish/static/js/runtime~main.bdce2252.js",
     "runtime~main.js.map": "/better-chinglish/static/js/runtime~main.bdce2252.js.map",
     "static/js/2.fa02c139.chunk.js": "/better-chinglish/static/js/2.fa02c139.chunk.js",
     "static/js/2.fa02c139.chunk.js.map": "/better-chinglish/static/js/2.fa02c139.chunk.js.map",
     "index.html": "/better-chinglish/index.html",
-    "precache-manifest.ee550355ad5a589da35b623d791238ff.js": "/better-chinglish/precache-manifest.ee550355ad5a589da35b623d791238ff.js",
+    "precache-manifest.bce6e9e8b4f7f2833abe72a896850863.js": "/better-chinglish/precache-manifest.bce6e9e8b4f7f2833abe72a896850863.js",
     "service-worker.js": "/better-chinglish/service-worker.js",
-    "static/css/main.73e7e0aa.chunk.css.map": "/better-chinglish/static/css/main.73e7e0aa.chunk.css.map"
+    "static/css/main.630b6d99.chunk.css.map": "/better-chinglish/static/css/main.630b6d99.chunk.css.map"
   }
 }
