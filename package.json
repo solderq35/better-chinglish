@@ -6,19 +6,20 @@
   "main": "src/index.js",
   "homepage": "https://solderq35.github.io/better-chinglish",
   "dependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "2.6.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.1",
-    "prettier": "2.6.2"
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test --env=jsdom",
-    "eject": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts test --env=jsdom",
+    "eject": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts eject",
     "prettier": "prettier --write ."
   },
   "browserslist": [
