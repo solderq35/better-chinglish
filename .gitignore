@@ -62,3 +62,6 @@ dbcon.js
 
 #config
 config.json
+
+# build
+build
